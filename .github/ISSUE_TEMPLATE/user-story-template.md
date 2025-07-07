@@ -13,9 +13,10 @@ assignees: JVM00
 **So that** [benefit]  
       
 ### Details and Assumptions
-    * [document what you know]      
-### Acceptance Criteria     
- 
+
+* [document what you know]
+* [document what you know]  
+### Acceptance Criteria      
 ```gherkin
 Given [some context]  
 When [certain action is taken] 
