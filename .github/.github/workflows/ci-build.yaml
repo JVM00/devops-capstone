@@ -1,8 +1,8 @@
-name: {name here}
+name: CI Build
 on:
   push:
     branches:
-      - {branch_name}
+      - main
   pull_request:
     branches:
-      - {branch_name}
+      - main
