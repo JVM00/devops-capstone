@@ -21,7 +21,6 @@ spec:
       - image: us.icr.io/sn-labs-vargasmoreno/accounts:1
         name: accounts
         resources: {}
-
         env:
           - name: DATABASE_HOST
             value: postgresql
@@ -39,5 +38,5 @@ spec:
             valueFrom:
               secretKeyRef:
                 name: postgresql
-                key: database-user
-        status: {}               
+                key: database-user       
+status: {}
